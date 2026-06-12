@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Google Sans", Roboto, "Helvetica Neue", system-ui, -apple-system, sans-serif;
+}
+
+/* Thin, unobtrusive scrollbars like Google Calendar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #dadce0 transparent;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #dadce0;
+  border-radius: 4px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
