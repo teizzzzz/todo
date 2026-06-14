@@ -32,9 +32,6 @@ jobs:
         env:
           GITHUB_PAGES: "true"
       - uses: actions/configure-pages@v5
-        # Auto-enable Pages (source = GitHub Actions) on the first run.
-        with:
-          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
